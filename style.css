@@ -1729,3 +1729,38 @@ input[type="text"] {
     page-break-after: avoid;
   }
 }
+.mitigation {
+  background-color: #3f93ab;
+  min-height: auto;
+  margin-bottom: 0;
+}
+.mitigation__map--render {
+  overflow: hidden;
+  position: relative;
+  background-color: #3f93ab;
+}
+
+.mitigation__map--render-image .mitigation__info {
+  top: 0px;
+  margin: 0 auto 2em;
+}
+
+@media screen and (min-width: 590px) {
+  .mitigation__map--render-image  .mitigation__info {
+    position: absolute;
+    margin: 0;
+  }
+}
+
+.mitigation__map--render-image .mobile-overlay {
+  display: none;
+}
+
+.mitigation__map--image {
+  width: 100%;
+  height: 100%;
+}
+.mitigation__map--image img {
+  width: 100%;
+  height: auto;
+}
